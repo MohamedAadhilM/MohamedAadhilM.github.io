@@ -42,7 +42,12 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-
+nav{
+  position:fixed;
+  width: 210vh;
+  margin-left: -2%;
+  
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -179,8 +184,12 @@ scale(1.25) rotate(10deg);
   display: inline-block;
   width: 60px;
   height: 34px;
+  right: 0;
 }
-
+.rightitem{
+  position: absolute;
+  float: right;
+}
 .switch input { 
   opacity: 0;
   width: 0;
@@ -279,4 +288,3 @@ body, html {
   padding: 20px;
   text-align: center;
 }
-</style>
