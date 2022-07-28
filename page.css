@@ -243,7 +243,10 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 img{
-  width: 700px;
+  width: 600px;
+}
+.icon{
+  width: 10px;
 }
 body, html {
   height: 100%;
@@ -288,3 +291,4 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+
